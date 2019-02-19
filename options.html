@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Redmine Time Tracked Options</title>
+  <style>
+    body: { padding: 10px; }
+  </style>
+</head>
+
+<body>
+  <div>Redmine API settings:</div>
+  <div>
+    Redmine url:
+    <input type="text" id="redmineUrl">
+  </div>
+  <div>
+    Username:
+    <input type="text" id="username">
+  </div>
+
+  <div>
+    Password:
+    <input type="password" id="password">
+  </div>
+  <button id="testConnection">Test connection</button>
+
+  <div id="status"></div>
+  <button id="save">Save</button>
+
+  <script src="options.js"></script>
+  <script src="RedmineApi.js"></script>
+</body>
+</html>

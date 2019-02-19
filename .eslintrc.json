@@ -1,0 +1,47 @@
+{
+    "extends": "standard",
+    "plugins": [
+        "standard",
+        "promise"
+    ],
+    "rules": {
+        // enable additional rules
+        "indent": ["error", 4, {
+            "SwitchCase": 1
+        }],
+        "linebreak-style": ["error", "unix"],
+        "quotes": "off",
+        "semi": ["error", "always"],
+
+        // toto by sa mohlo zmenit na always. Robilo to problemy len IE8, ale ten uz nepouzivame
+        "comma-dangle": ["error", "only-multiline"],
+        "no-cond-assign": ["error", "always"],
+
+        // disable rules from base configurations
+        "no-console": "off",
+        "space-before-function-paren": ["error", "never"],
+        "one-var": ["error", "always"],
+        "no-multiple-empty-lines": ["error", {
+            "max": 2
+        }],
+        "spaced-comment": "off",
+        "one-var-declaration-per-line": ["warn", "initializations"],
+        "padded-blocks": ["warn", "never"],
+        "no-return-assign": "warn",
+        "no-unused-vars": "warn",
+        "key-spacing": ["error", {
+            "afterColon": true,
+            "mode": "minimum"
+        }]
+    },
+    "globals": {
+        "Ext": false,
+        "Drywall": false,
+        "Deft": false,
+        "JL": false,
+        "cordova": false,
+        "Tm": false,
+        "L": false,
+        "__": true
+    }
+}

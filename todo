@@ -1,0 +1,11 @@
+------------------- DONE ----------------------------
+- zobrazit info a aktualne prebiehajucom tasku. cislo, start,  duration (po aktualny datum);
+- clear track history buton ozivit. dat tam potvrdenie.
+------------------- TODO ----------------------------
+- pridat stop button k aktivnemu tracku do popupu
+- zfunkcnit stop button v popup
+    - ukoncit trackovanie z pohladu dat
+    - ukoncit trackovanie z pohladu popupu
+    - ukoncit trackovani na otvorenom tabe!!!
+- prepojit stop button na stranke a logikou. aktualne sa cas stale trackuje, aj po stlaceni stop track
+- timer na refresh casu aktualne prebiehajuceho tasku
